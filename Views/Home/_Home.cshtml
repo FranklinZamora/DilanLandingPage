@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <title>Terapia Física | Dilan Gutiérrez</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__logo">
+            <a href="#conoceme"><img src="assets/logo.svg" alt="logo" /></a>
+        </div>
+        <ul class="nav__links">
+            <li class="link"><a href="#explore">Programas</a></li>
+            <li class="link"><a href="#planes">Planes</a></li>
+            <li class="link"><a href="#testimonios">Testimonios</a></li>
+            <li class="link"><a href="#conoceme">Conoceme</a></li>
+        </ul>
+        <button class="btn" onclick="location.href='@Url.Action("Login", "Account")'">Log In</button>
+
+    </nav>
+
+    <header class="section__container header__container">
+        <div class="header__content">
+            <span class="bg__blur"></span>
+            <span class="bg__blur header__blur"></span>
+            <h4>TE PUEDO AYUDAR A ENTRENAR SIN DOLOR</h4>
+            <h1><span>ENTRENAMIENTO</span> CON ENFOQUE TERAPEUTICO</h1>
+            <p>
+                Soy Dilan Gutiérrez, licenciado en Terapia Física y Rehabilitación, con amplia experiencia y diversas certificaciones en ejercicio terapéutico y prevención de lesiones. Mi misión es enseñarte a entrenar de manera estructurada e inteligente, permitiéndote iniciar o retomar el ejercicio sin comprometer tu integridad.
+
+            </p>
+            <button class="btn">Comenzar</button>
+        </div>
+        <div class="header__image">
+            <img src="assets/header2.png" alt="header" />
+        </div>
+    </header>
+
+    <section id="explore" class="section__container explore__container center-content">
+        <div class="explore__header">
+            <h2 class="section__header">Explora nuestros programas.</h2>
+            <div class="explore__nav">
+            </div>
+        </div>
+        <div class="explore__grid">
+            <div class="explore__card">
+                <span><i class="ri-boxing-fill"></i></span>
+                <h4>Autónomo Fitness</h4>
+                <p>
+                    Dirigido a personas que tienen experiencia con el entrenamiento.
+                </p>
+                <a href="#planes">Comenzar <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="explore__card">
+                <span><i class="ri-heart-pulse-fill"></i></span>
+                <h4>Progresivo</h4>
+                <p>
+                    Ideal para quienes tienen experiencia pero buscan orientación.
+                </p>
+                <a href="#planes">Comenzar <i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <div class="explore__card">
+                <span><i class="ri-run-line"></i></span>
+                <h4>Transformación Total</h4>
+                <p>
+                    El plan mas completo, perfecto para principiantes o lesionados.
+                </p>
+                <a href="#planes">Comenzar <i class="ri-arrow-right-line"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="section__container class__container">
+        <div class="class__image">
+            <span class="bg__blur"></span>
+            <img src="assets/class-22.jpg" alt="class" class="class__img-1" />
+            <img src="assets/class-11.jpg" alt="class" class="class__img-2" />
+        </div>
+        <div class="class__content">
+            <h2 class="section__header">ENTRENAMIENTO DIRIGIDO A</h2>
+            <p>
+                Este programa está diseñado para personas que están iniciando en el entrenamiento, con poca o ninguna experiencia en ejercicios de fuerza como levantamiento de pesas, y para aquellos que, aunque ya entrenan, sufren de dolor muscular o articular. Nos enfocamos en brindar supervisión y retroalimentación constante para asegurar un progreso efectivo y seguro.
+
+            </p>
+            <a href="assets/Informacion de entrenamiento.pdf" class="btn" target="_blank">PDF Informativo</a>
+        </div>
+    </section>
+
+    <section id="conoceme" class="section__container join__container">
+        <h2 class="section__header">¿POR QUÉ ELEGIRME?</h2>
+        <p class="section__subheader">
+            Soy licenciado en Terapia Física y Rehabilitación, con una especialización en ejercicio terapéutico y prevención de lesiones. Cuento con amplia experiencia y un historial comprobado de casos de éxito en los que he logrado combinar de manera efectiva la rehabilitación con el entrenamiento físico.
+        </p>
+        <div class="join__image">
+            <img src="assets/join2.png" alt="Join" />
+            <div class="join__grid">
+                <div class="join__card">
+                    <span><i class="ri-user-star-fill"></i></span>
+                    <div class="join__card__content">
+                        <h4>Valoracion</h4>
+                        <p>
+                            Puede ser presencial o virtual, adaptandonos a tu comodidad y necesidades
+                        </p>
+                    </div>
+                </div>
+                <div class="join__card">
+                    <span><i class="ri-open-arm-fill"></i></span>
+                    <div class="join__card__content">
+                        <h4>Sesiones Practicas</h4>
+                        <p>Asesorías en gimnasio o videollamada para resolver tus dudas y recibir orientación.</p>
+                    </div>
+                </div>
+                <div class="join__card">
+                    <span><i class="ri-building-line"></i></span>
+                    <div class="join__card__content">
+                        <h4>Plan de gestion </h4>
+                        <p>Gestión Eficaz de entrenamiento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="planes" class="section__container price__container">
+        <h2 class="section__header">Planes</h2>
+        <p class="section__subheader">
+
+            Nuestros precios incluye varios niveles de membresía, cada uno diseñado para adaptarse a diferentes preferencias y objetivos de fitness.
+        </p>
+        <div class="price__grid">
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>Autonomo Fitness</h4>
+                    <h3>$700 / Pago Unico</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Entrevista.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Valoracion.
+                    </p>
+                    <p> 
+                        <i class="ri-checkbox-circle-line"></i>
+                        Plan inicial de entrenamiento.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Educación en gestión de cargas
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Gestió de lesión previa.
+                    </p>
+
+
+                </div>
+                <button class="btn price__btn" onclick="location.href='@Url.Action("AutonomoFitness", "Payment")'">Unirme</button>
+
+            </div>
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>Entrenamiento Progresivo</h4>
+                    <h3>$1000 / Mes</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Autonomo Fitness
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Dos asesorías mensuales 
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Analisis y corrección. 
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Progresiones
+                    </p>
+                </div>
+                <button class="btn price__btn" onclick="location.href='@Url.Action("Progresivo", "Payment")'">Unirme</button>
+            </div>
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>Transformación Total</h4>
+                    <h3>$2000 / Mes</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Autonomo Fitness
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Progresiones personalizadas
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Feedback diario.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Seguimiento y manejo semanal.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Lesiones online.
+                    </p>
+                </div>
+                <button class="btn price__btn" onclick="location.href='@Url.Action("TransformacionTotal", "Payment")'">Unirme</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="review">
+        <div class="section__container review__container">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="review__content">
+                <h4>Testimonios</h4>
+                <p>
+                    Inicie principalmente contigo porque quería saber cómo entrenar correctamente usando el mínimo tiempo o esfuerzo pero que fuera funcional, a su vez me ayudaste con mis tareas del día a día y adaptarlas al ejercicio para tener un mejor rendimiento junto con su prevención de lesiones.
+                    Lo que me hizo quedarme con tu servicio fue el trato tan personalizado que tienes ya que había tenido malas experiencias con otras personas en el área nutricional / instructor / fisio donde su servicio era muy general y nada al punto como contigo, el cambio más grande que noté fue que baje 15 kilos en un par de meses fue algo lento pero seguro y sin riesgos.
+                    Sé que no te dedicas al área de obesidad pero fue de la mano junto con el ejercicio y hábitos saludables.
+                </p>
+                <div class="review__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                </div>
+                <div class="review__footer">
+                    <div class="review__member">
+                        <img src="assets/member2.png" alt="member" />
+                        <div class="review__member__details">
+                            <h4>Franklin Zamora</h4>
+                            <p>Cambio de habitos para mejorar el estilo de vida</p>
+                        </div>
+                    </div>
+                    <div class="review__nav">
+                        <span><i class="ri-arrow-left-line"></i></span>
+                        <span><i class="ri-arrow-right-line"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section__container footer__container">
+        <span class="bg__blur"></span>
+        <span class="bg__blur footer__blur"></span>
+        <div class="footer__col">
+            <div class="footer__logo"><img src="assets/logo2.png" alt="logo" /></div>
+            <p>
+                Fisioterapia con enfoque Deportivo.
+                Te puedo ayudar a entrenar sin dolor.
+            </p>
+            <div class="footer__socials">
+                <a href="https://www.facebook.com/Dilan.GutierrezH/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                <a href="https://www.instagram.com/dilan_gtez/" target="_blank"><i class="ri-instagram-line"></i></a>
+                <a href="https://maps.app.goo.gl/izsMZQM4hFDCtekK9" target="_blank"><i class="ri-map-pin-fill"></i></a>
+            </div>
+        </div>                                                     
+    </footer>
+    <div class="footer__bar">
+        Copyright © 2024 Web Design for Dilan Gutiérrez. All rights reserved.
+    </div>
+</body>
+</html>

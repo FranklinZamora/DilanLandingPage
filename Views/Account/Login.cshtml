@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Inicio de sesión para miembros</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+</head>
+<body>
+    <span class="bg__blur"></span>
+    <span class="bg__blur header__blur"></span>
+    <div class="formulario-login">
+        <img src="~/assets/Logo.svg" alt="Logo" class="login-logo" />
+        <h1>Inicio de sesión</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" id="usernameInput" required />
+                <label for="usernameInput" id="usernameLabel">Usuario</label>
+            </div>
+            <div class="username">
+                <input type="password" id="passwordInput" required />
+                <label for="passwordInput" id="passwordLabel">Contraseña</label>
+            </div>
+            <div class="recordar" id="loginButton">¿Olvidó su contraseña?</div>
+            <input type="submit" value="Iniciar" id="loginButton">
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+        document.getElementById('usernameInput').addEventListener('input', function() {
+            var label = document.getElementById('usernameLabel');
+            if (this.value.length > 0) {
+                label.style.display = 'none';
+            } else {
+                label.style.display = 'block';
+            }
+        });
+
+        document.getElementById('passwordInput').addEventListener('input', function() {
+            var label = document.getElementById('passwordLabel');
+            if (this.value.length > 0) {
+                label.style.display = 'none';
+            } else {
+                label.style.display = 'block';
+            }
+        });
+
+        document.getElementById('loginButton').addEventListener('click', function(event) {
+            event.preventDefault(); // Evita que el formulario se envíe
+            toastr.warning('Sección en desarrollo');
+        });
+    </script>
+</body>
+</html>

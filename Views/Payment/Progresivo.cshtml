@@ -1,0 +1,18 @@
+﻿<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Pago de membresia Autonomo Fitness</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<span class="bg__blur"></span>
+<span class="bg__blur header__blur"></span>
+<div class="formulario-login">
+    <h2>Pago de membresía:</h2>
+    <script src="https://www.paypal.com/sdk/js?client-id=BAA8MfAzn8XjhYIWQGiCS3rUdyl78jtQNvrIsz6pnCHOjAyS2kfgCqL5eE193QyGHZYQZnOXNEnoKqc6vo&components=hosted-buttons&disable-funding=venmo&currency=MXN"></script>
+    <div id="paypal-container-QTS2BJ5QE796J"></div>
+    <script>
+        paypal.HostedButtons({
+            hostedButtonId: "QTS2BJ5QE796J",
+        }).render("#paypal-container-QTS2BJ5QE796J")
+    </script>
+</div>
