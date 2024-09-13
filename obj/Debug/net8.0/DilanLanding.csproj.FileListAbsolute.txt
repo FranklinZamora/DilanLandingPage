@@ -28,3 +28,4 @@ C:\Users\frank\source\repos\DilanLanding\DilanLanding\obj\Debug\net8.0\refint\Di
 C:\Users\frank\source\repos\DilanLanding\DilanLanding\obj\Debug\net8.0\DilanLanding.pdb
 C:\Users\frank\source\repos\DilanLanding\DilanLanding\obj\Debug\net8.0\DilanLanding.genruntimeconfig.cache
 C:\Users\frank\source\repos\DilanLanding\DilanLanding\obj\Debug\net8.0\ref\DilanLanding.dll
+C:\Users\frank\source\repos\DilanLanding\DilanLanding\obj\Debug\net8.0\DilanLanding.sourcelink.json

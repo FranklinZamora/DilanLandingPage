@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bhzDgul4XlCq8RjE9yC/sKPr7ZacTgXBzXlCWU5l4rM=",
+  "Hash": "AWwUzDw66ffpX70y7Ax6ERMSr8/ZwApXyVrIhWRAO/A=",
   "Source": "DilanLanding",
   "BasePath": "_content/DilanLanding",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\class-22.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\Cynthia.png",
+      "SourceId": "DilanLanding",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\",
+      "BasePath": "_content/DilanLanding",
+      "RelativePath": "assets/Cynthia.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Cynthia.png"
     },
     {
       "Identity": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\header.png",

@@ -6,6 +6,9 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
           rel="stylesheet" />
     <link rel="stylesheet" href="~/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <title>Terapia Física | Dilan Gutiérrez</title>
 </head>
 <body>
@@ -23,22 +26,28 @@
 
     </nav>
 
+    <h1 class="header__title">
+        Soy <span class="highlight">Dilan Gutiérrez</span>.
+        Licenciado en Terapia Física y Rehabilitación
+    </h1>
+
     <header class="section__container header__container">
         <div class="header__content">
             <span class="bg__blur"></span>
             <span class="bg__blur header__blur"></span>
-            <h4>TE PUEDO AYUDAR A ENTRENAR SIN DOLOR</h4>
+            <h4 >TE PUEDO AYUDAR A ENTRENAR SIN DOLOR</h4>
             <h1><span>ENTRENAMIENTO</span> CON ENFOQUE TERAPEUTICO</h1>
             <p>
                 Soy Dilan Gutiérrez, licenciado en Terapia Física y Rehabilitación, con amplia experiencia y diversas certificaciones en ejercicio terapéutico y prevención de lesiones. Mi misión es enseñarte a entrenar de manera estructurada e inteligente, permitiéndote iniciar o retomar el ejercicio sin comprometer tu integridad.
 
             </p>
-            <button class="btn">Comenzar</button>
         </div>
         <div class="header__image">
             <img src="assets/header2.png" alt="header" />
         </div>
     </header>
+
+
 
     <section id="explore" class="section__container explore__container center-content">
         <div class="explore__header">
@@ -82,11 +91,10 @@
             <img src="assets/class-22.jpg" alt="class" class="class__img-1" />
             <img src="assets/class-11.jpg" alt="class" class="class__img-2" />
         </div>
-        <div class="class__content">
+        <div class="class__content Entrenamiento__intro">
             <h2 class="section__header">ENTRENAMIENTO DIRIGIDO A</h2>
             <p>
                 Este programa está diseñado para personas que están iniciando en el entrenamiento, con poca o ninguna experiencia en ejercicios de fuerza como levantamiento de pesas, y para aquellos que, aunque ya entrenan, sufren de dolor muscular o articular. Nos enfocamos en brindar supervisión y retroalimentación constante para asegurar un progreso efectivo y seguro.
-
             </p>
             <a href="assets/Informacion de entrenamiento.pdf" class="btn" target="_blank">PDF Informativo</a>
         </div>
@@ -217,38 +225,260 @@
         </div>
     </section>
 
-    <section id="testimonios" class="review">
-        <div class="section__container review__container">
-            <span><i class="ri-double-quotes-r"></i></span>
-            <div class="review__content">
-                <h4>Testimonios</h4>
-                <p>
-                    Inicie principalmente contigo porque quería saber cómo entrenar correctamente usando el mínimo tiempo o esfuerzo pero que fuera funcional, a su vez me ayudaste con mis tareas del día a día y adaptarlas al ejercicio para tener un mejor rendimiento junto con su prevención de lesiones.
-                    Lo que me hizo quedarme con tu servicio fue el trato tan personalizado que tienes ya que había tenido malas experiencias con otras personas en el área nutricional / instructor / fisio donde su servicio era muy general y nada al punto como contigo, el cambio más grande que noté fue que baje 15 kilos en un par de meses fue algo lento pero seguro y sin riesgos.
-                    Sé que no te dedicas al área de obesidad pero fue de la mano junto con el ejercicio y hábitos saludables.
-                </p>
-                <div class="review__rating">
-                    <span><i class="ri-star-fill"></i></span>
-                    <span><i class="ri-star-fill"></i></span>
-                    <span><i class="ri-star-fill"></i></span>
-                    <span><i class="ri-star-fill"></i></span>
-                    <span><i class="ri-star-fill"></i></span>
-                </div>
-                <div class="review__footer">
-                    <div class="review__member">
-                        <img src="assets/member2.png" alt="member" />
-                        <div class="review__member__details">
-                            <h4>Franklin Zamora</h4>
-                            <p>Cambio de habitos para mejorar el estilo de vida</p>
+    <section id="testimonios">
+    <h2 class="section__header">Testimonios</h2>
+    <p class="section__subheader">
+
+            Como Fisioterapeuta, mi objetivo es ayudar a las personas no solo a recuperarse de lesiones, sino también a alcanzar un estado óptimo de salud y rendimiento físico. 
+            Cada testimonio refleja el enfoque personalizado que aplico, combinando rehabilitación con entrenamiento funcional, para que mis pacientes puedan 
+            moverse mejor, más fuerte y sin dolor.
+    </p>
+            <div class="container bg-body-tertiary py-3">
+                <div id="testimonialCarousel" class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Inicie principalmente contigo porque quería saber cómo entrenar correctamente usando el mínimo tiempo o esfuerzo pero que fuera funcional, a su vez me ayudaste con mis tareas del día a día y adaptarlas al ejercicio para tener un mejor rendimiento junto con su prevención de lesiones.
+                                        Lo que me hizo quedarme con tu servicio fue el trato tan personalizado que tienes ya que había tenido malas experiencias con otras personas en el área nutricional / instructor / fisio donde su servicio era muy general y nada al punto como contigo, el cambio más grande que noté fue que baje 15 kilos en un par de meses fue algo lento pero seguro y sin riesgos.
+                                        Sé que no te dedicas al área de obesidad pero fue de la mano junto con el ejercicio y hábitos saludables.
+                                        "
+                                    </p>
+                                <div class="review__rating">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                </div>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="~/assets/member2.png" alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Franklin Zamora</h5>
+                                            <span class="text-secondary">Trabajo de oficina sedentario</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    "Después de una cesárea, una cirugía de quiste y 11 meses lactando exclusivamente a mi bebé, además de todos los cambios que conlleva el postparto, estaba 10 kg por debajo de mi peso ideal. Por esa razón decidí retomar el ejercicio con el especialista mejor capacitado que conozco. Has sido el mayor apoyo que he tenido para recuperarme al 100%, rehabilitar mi espalda tras meses de lactancia y cargar a mi pequeño. Me reincorporé y empecé a progresar día a día, tanto en fuerza, como en apariencia física, lo que también mejoró mi autoestima. Mi plan se ajusta perfectamente a mis tiempos y nivel de energía como mamá, ama de casa y emprendedora. En poco tiempo ya recuperé 4 kg de masa muscular, y seguiré cumpliendo objetivos cada vez mayores."
+                                </p>
+                                <div class="review__rating">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-half-fill"></i></span>
+                                </div>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="~/assets/Cynthia.png" alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Cynthia Yañez</h5>
+                                            <span class="text-secondary">Mamá, Emprendedora y Ama de casa</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Amigues fuera de cura necesito sus testimonios para terminar esta vaina, que sean de 753 caracteres para no programar un ajuste de tamaño en las cajitas de comentarios :)"
+                                    </p>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="..." alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">URGE</h5>
+                                            <span class="text-secondary">Plox</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Some quick example text to build on the card title and make up the
+                                        bulk of
+                                        the card's content."
+                                    </p>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="..." alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Card title 4</h5>
+                                            <span class="text-secondary">CEO, Example Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Some quick example text to build on the card title and make up the
+                                        bulk of
+                                        the card's content."
+                                    </p>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="..." alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Card title 5</h5>
+                                            <span class="text-secondary">CEO, Example Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Some quick example text to build on the card title and make up the
+                                        bulk of
+                                        the card's content."
+                                    </p>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="..." alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Card title 6</h5>
+                                            <span class="text-secondary">CEO, Example Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Some quick example text to build on the card title and make up the
+                                        bulk of
+                                        the card's content."
+                                    </p>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="..." alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Card title 7</h5>
+                                            <span class="text-secondary">CEO, Example Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Some quick example text to build on the card title and make up the
+                                        bulk of
+                                        the card's content."
+                                    </p>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="..." alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Card title 8</h5>
+                                            <span class="text-secondary">CEO, Example Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card shadow-sm rounded-3 p-2">
+                                <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        "Some quick example text to build on the card title and make up the
+                                        bulk of
+                                        the card's content."
+                                    </p>
+                                    <div class="d-flex align-items-center pt-4">
+                                        <img src="..." alt="">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Card title 9</h5>
+                                            <span class="text-secondary">CEO, Example Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="review__nav">
-                        <span><i class="ri-arrow-left-line"></i></span>
-                        <span><i class="ri-arrow-right-line"></i></span>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+
+                <script>
+                    const multipleItemCarousel = document.querySelector("#testimonialCarousel");
+
+                    if (window.matchMedia("(min-width:576px)").matches) {
+                        const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+                            interval: false,
+                        });
+
+                        var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+                        var cardWidth = $(".carousel-item").width();
+
+                        var scrollPosition = 0;
+
+                        $(".carousel-control-next").on("click", function () {
+                            if (scrollPosition < carouselWidth - cardWidth * 3) {
+                                console.log("next");
+                                scrollPosition = scrollPosition + cardWidth;
+                                $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+                            }
+                        });
+                        $(".carousel-control-prev").on("click", function () {
+                            if (scrollPosition > 0) {
+                                scrollPosition = scrollPosition - cardWidth;
+                                $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+                            }
+                        });
+                    } else {
+                        $(multipleItemCarousel).addClass("slide");
+                    }
+                </script>
             </div>
-        </div>
+
     </section>
 
     <footer class="section__container footer__container">
