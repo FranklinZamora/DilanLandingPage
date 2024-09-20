@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DilanLanding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b07f7849c894967ec51b1621a50a1be06f9a8531")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a59ded368e31265503d1fb971b2aa983ddd2142e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DilanLanding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DilanLanding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

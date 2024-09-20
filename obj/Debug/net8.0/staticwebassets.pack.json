@@ -25,52 +25,40 @@
       "PackagePath": "staticwebassets\\assets\\Logo.svg"
     },
     {
-      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\class-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\class-1.jpg"
-    },
-    {
       "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\class-11.jpg",
       "PackagePath": "staticwebassets\\assets\\class-11.jpg"
-    },
-    {
-      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\class-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\class-2.jpg"
     },
     {
       "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\class-22.jpg",
       "PackagePath": "staticwebassets\\assets\\class-22.jpg"
     },
     {
-      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\header.png",
-      "PackagePath": "staticwebassets\\assets\\header.png"
-    },
-    {
       "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\header2.png",
       "PackagePath": "staticwebassets\\assets\\header2.png"
-    },
-    {
-      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\join.jpg",
-      "PackagePath": "staticwebassets\\assets\\join.jpg"
     },
     {
       "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\join2.png",
       "PackagePath": "staticwebassets\\assets\\join2.png"
     },
     {
-      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\logo.png",
-      "PackagePath": "staticwebassets\\assets\\logo.png"
-    },
-    {
       "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\logo2.png",
       "PackagePath": "staticwebassets\\assets\\logo2.png"
     },
     {
-      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\member.jpg",
-      "PackagePath": "staticwebassets\\assets\\member.jpg"
-    },
-    {
       "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\member2.png",
       "PackagePath": "staticwebassets\\assets\\member2.png"
+    },
+    {
+      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\member3.png",
+      "PackagePath": "staticwebassets\\assets\\member3.png"
+    },
+    {
+      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\member4.png",
+      "PackagePath": "staticwebassets\\assets\\member4.png"
+    },
+    {
+      "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\assets\\member5.png",
+      "PackagePath": "staticwebassets\\assets\\member5.png"
     },
     {
       "Id": "C:\\Users\\frank\\source\\repos\\DilanLanding\\DilanLanding\\wwwroot\\css\\style.css",
